@@ -120,6 +120,32 @@ h1, h2, h3, h4, h5, h6 {
   background: #18d26e;
 }
 
+/* Portrait and Landscape */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3) {
+
+}
+
+/* Portrait */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media screen
+and (device-width: 320px)
+and (device-height: 640px)
+and (-webkit-device-pixel-ratio: 3)
+and (orientation: landscape) {
+
+}
+
 @media (max-width: 992px) {
   #header h1 {
     font-size: 36px;
