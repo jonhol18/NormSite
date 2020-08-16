@@ -26,6 +26,7 @@ html {
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+    background: #040404 url("../../../img/BackgroundMobile.png") top right no-repeat;
   }
 }
 
